@@ -25,9 +25,3 @@ Ce projet implémente un pipeline CI/CD complet pour l'application **Station de 
 
 ---
 
-## Structure du Pipeline Jenkins
-
-### 1. **Checkout Git**
-Clonage du code source depuis le dépôt Git :
-```groovy
-git branch: 'Wael', credentialsId: '486a5359-e642-41df-bbc8-d1cfd0e3ad20', url: 'https://github.com/yasminenasfi2001/DevOps_Station_Ski.git'
